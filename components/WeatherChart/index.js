@@ -36,7 +36,7 @@ const WeatherChart = ({yDomain, values, hours, color, title}) => {
             {
                 data.length > 0 ?
                 (<Chart
-                    style={{ height: '30vh', width: '100vw' }}
+                    style={{ height: 200, width: 350 }}
                     padding={{ left: 40, bottom: 20, right: 20, top: 20 }}
                     xDomain={{ min: 0, max: 48 }}
                     yDomain={yDomain}
